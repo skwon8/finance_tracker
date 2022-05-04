@@ -1,0 +1,225 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .font-link {
+  font-family: 'PT Sans', sans-serif;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Righteous', sans-serif;
+}
+
+.home,
+.addyourspend,
+.myfinance,
+.detailfinance,
+.editfinance,
+.sign-up {
+  display: flex;
+  height: 100vh;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.container2{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addyourspend {
+  background-image: url('/public/images/img-2.jpg');
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.about {
+  background-image: url('/public/images/img-5.jpg');
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.myfinance {
+  background-image: url('/public/images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.dashboard {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.detailfinance {
+  background-image: url('/public/images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.editfinance {
+  background-image: url('/public/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+.fontColor {
+  color: #fff;
+}
+
+.h2 {
+  color:#fff;
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+
+.card {
+  background-color: transparent;
+  border: 0px solid var(--primary);
+}
+
+.content {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+
+.sign-up {
+  background-image: url('/public/images/img-8.jpg');  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.signin-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.signin-container1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.signin-container  h1 {
+  color: #fff;
+  font-size: 80px !important;
+  margin-top: -40px;
+}
+
+.signin-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .signin-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signin-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+  }
+
+  .signin-container > p {
+      font-size: 30px;
+  }
+
+  .select {
+max-width: 400px;
+margin: 0 auto;
+text-align: center;
+  }
+}
