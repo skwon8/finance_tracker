@@ -40,6 +40,7 @@
 -------------------------------------
 ##### I used basic CRUD features and by using JSON Web Token and Cookies to provide security to the users.
 ##### Developed back-end with Express framework and MongoDB for their flexible structure and ease of data access.
+##### Using Bootstrap, CSS, Javascript to do the front-end
 
 ### Project Status
 -------------------------------------
