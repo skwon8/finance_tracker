@@ -12,6 +12,7 @@
 -------------------------------------
 * Tracking your own spend with provide tools
 * This Finance Tracker can track your spend by categories or by monthly
+* Click [HERE](http://54.242.118.117/) to Check out the Website I created!
 
 ### Technologies Used
 -------------------------------------
